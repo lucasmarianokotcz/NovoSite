@@ -1,0 +1,42 @@
+body {
+    padding-top: 40px;
+    background-color: #3498db;
+    background-image: linear-gradient(to right, #2ecc71, #3498db);
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px black;
+    animation: bemVindo 2s;
+}
+
+h3 {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+form {
+    margin-top: 50px;
+    padding: 30px;
+    border: white 1px solid;
+}
+
+label {
+    color: white;
+    font-size: 110%;
+    padding-right: 10px;
+    text-shadow: 1px 1px black;
+}
+
+input {
+    float: right;
+}
+
+@keyframes bemVindo {
+    0% {
+        transform: translateY(-200%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
